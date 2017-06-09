@@ -13,6 +13,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://learn.python.ru/static/css/animate.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,40 +24,18 @@
 
 <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li style="text-indent: 0px;"><a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a></li>
-            <li class="sidebar-brand">
-                <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#top' ">Агентство</button>
-            </li>
-            <li>
-                <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#top' ">Главная</button>
-            </li>
-            <li>
-                <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#services'">О нас</button>
-            </li>
-            <li>
-                <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#services'">Услуги</button>
-            </li>
-            <!-- <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Портфолио</a>
-            </li> -->
-            <li>
-                <button class="btn-link" onclick = "$('#menu-close').click(); window.location='#contacts'">Контакты</button>
-            </li>
-        </ul>
-    </nav>
+    
+    
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <div style="margin: 0; padding: 0; font-size: 4.5em; font-weight: 700;">Твой Дом</div>
-            <div style="margin-top: 20;margin-bottom: 10;font-weight: 500; font-size: 24">Агентство недвижимости</div>
+            <div style="margin: 0; padding: 0; font-size: 4.5em; font-weight: 700; color: white;" class="to-animate fadeInDown animated">Привет, милашка</div>
+            <div style="margin-top: 20;margin-bottom: 10;font-weight: 500; font-size: 24; color: white;"  class="to-animate fadeInDown animated">Не хочешь подбухнуть?</div>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Узнать больше >></a>
         </div>
+
     </header>
 
     <!-- About -->
@@ -64,8 +43,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Квартира вашей мечты!</h2>
-                    <p class="lead">Дом там, где сердце. Мы поможем вам и вашей компании найти место, где вы будете чувствовать себя дома.<br>Покупка или продажа — мы то, что вам нужно.</p>
+                    <h2>Вписка вашей мечты!</h2>
+                    <p class="lead">Дом там, где сердце. Я хочу пригласить тебя в лучшее место на свете - посёлок Кратово.<br>Раскрой своё сердце для азарной музыки и горячительных напитков.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -75,7 +54,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="services bg-primary header" style="height: 50%;">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -86,49 +65,48 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-search fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-users fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
-                                    <strong>Оценка</strong>
+                                    <strong>Что происходит?</strong>
                                 </h4>
-                                <p>Оценка жилой недвижимости: квартир и домов в Москве</p>
+                                <p>Милая тусовка, где соберется около 20 адекватный людей для совместного приятного времяпрепровождения </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-file fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-home fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
-                                    <strong>Договора</strong>
+                                    <strong>Роскошные апартаменты</strong>
                                 </h4>
-                                <p>Составление договоров, подготовка пакета документов к гос.регистрации, комфортное сопровождение сделок</p>
+                                <p>Непревзойденный дворец Константина в Кратово распахнёт перед вами двери во всей красе.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-phone fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-calendar-o fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
-                                    <strong>Консультации</strong>
+                                    <strong>Когда?</strong>
                                 </h4>
-                                <p>Всегда бесплатное консультирование по телефону +7 (999) 999-99-99
-                                 ведущим специалистом</p>
+                                <p>10 июня в 18:00 нужно прибыть на место</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-usd fa-stack-1x text-primary"></i>
+                                <i class="fa fa-rub fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Выкуп</strong>
+                                    <strong>Бюджетно, но красиво</strong>
                                 </h4>
-                                <p>Срочный выкуп недвижимости</p>
+                                <p>Скидываемся по 500 &#8381;. С вас деньги, с нас кальяны, музыка, алкоголь, насвай, дошики</p>
                             </div>
                         </div>
                     </div>
@@ -140,51 +118,26 @@
         </div>
         <!-- /.container -->
     </section>
-
-    <!-- Map -->
-    <section id="contacts" class="contacts">
-      <div id="map" class="map" style="height: 100vh; width: 100%"></div>
-
-
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-12">
-              <div style="font-size: 30; margin-top: 40; margin-bottom: 20;"><h4>Наш офис</h4></div>
-            <img src="img/office_place.jpg" alt="Наше местоположение" width="600" class="img-rounded center-block">
-          </div>
-        </div>
-      </div>
-    </section>
-
-
     
-
-    <!-- Footer -->
-    <footer>
+    <section id="before" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center" id="contact">
-                    <h4><strong>Твой Дом</strong>
-                    </h4>
-                    <p>г. Москва<br>Старомонетный переулок, 10</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> +7 (999) 999-99-99</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">test@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://vk.com/"><i class="fa fa-vk fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://example.com/"><i class="fa fa-link fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
+                <div class="col-lg-12 text-center">
+                    <h2>Куда скидовать деньги на лечение?</h2>
+                    <hr>
+                    <p class="lead">Я буду рад, если вы заранее переведете деньги на мою карту Сбербанка по номеру телефона<br><b>79099575227</b>.</p>
                 </div>
             </div>
+            <!-- /.row -->
         </div>
-    </footer>
+        <!-- /.container -->
+    </section>
+    <!-- Map -->
+    <section id="contacts" class="contacts">
+      <div id="map" class="map" style="height: 80vh; width: 100%"></div>
+
+
+      
 
 
     <!-- Custom Theme JavaScript -->
